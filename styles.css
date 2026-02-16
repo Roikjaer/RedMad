@@ -1,8 +1,9 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #e8f5e9;
+    font-family: Bebas, sans-serif;
+    background-color: #F2F6F3
+;
 }
 
 
@@ -14,17 +15,22 @@ body {
 
 
 .box1 {
-    background-color: #1b5e20;
+    background-color: #3E8E6F
+
+;
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
 
 .small-box {
-    width: 60px;
+    width: 150px;
     height: 60px;
-    background-color: #66bb6a;
+    background-color: #5FAF8F;
     border-radius: 8px;
+}
+.small-box:hover{
+    background-color: #1b5e20;
 }
 
 
@@ -35,7 +41,8 @@ body {
 }
 
 .main-box {
-    background-color: #2e7d32;
+    background-color: #3E8E6F
+;
     color: white;
     padding: 30px;
     font-size: 32px;
@@ -51,7 +58,8 @@ body {
 }
 
 .option-box {
-    background-color: #388e3c;
+    background-color: #3E8E6F
+;
     color: white;
     padding: 20px 40px;
     border-radius: 10px;
@@ -64,22 +72,25 @@ body {
 
 
 .box-3 {
-    background-color: #a5d6a7;
+    background-color: #2F6F57;
     padding: 40px;
     display: flex;
     justify-content: center;
 }
 
 .downloadknap {
-    background-color: #1b5e20;
+    background-color: #E9B949
+;
     color: white;
     padding: 20px 60px;
+    font-family: Bebas;
     font-size: 18px;
     border: none;
     border-radius: 12px;
     cursor: pointer;
 }
 
-.download-btn:hover {
-    background-color: #0d3b12;
+.downloadknap:hover {
+    background-color: #D9A62E
+;
 }
