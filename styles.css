@@ -1,23 +1,25 @@
-
 body {
     margin: 0;
     font-family: Bebas, sans-serif;
-    background-color: #F2F6F3
-;
+    background-color: #F2F6F3;
 }
 
+/* remove default link style */
+a {
+    text-decoration: none;
+    display: inline-block;
+}
 
+/* layout */
 .page {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-
+/* ---------- TOP ---------- */
 .box1 {
-    background-color: #3E8E6F
-
-;
+    background-color: #3E8E6F;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -28,12 +30,15 @@ body {
     height: 60px;
     background-color: #5FAF8F;
     border-radius: 8px;
+    transition: 0.15s;
 }
-.small-box:hover{
+
+.small-box:hover {
     background-color: #1b5e20;
+    transform: scale(1.05);
 }
 
-
+/* ---------- MID ---------- */
 .box2 {
     flex: 1;
     text-align: center;
@@ -41,8 +46,7 @@ body {
 }
 
 .main-box {
-    background-color: #3E8E6F
-;
+    background-color: #3E8E6F;
     color: white;
     padding: 30px;
     font-size: 32px;
@@ -58,19 +62,20 @@ body {
 }
 
 .option-box {
-    background-color: #3E8E6F
-;
+    background-color: #3E8E6F;
     color: white;
     padding: 20px 40px;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.15s;
 }
 
 .option-box:hover {
     background-color: #1b5e20;
+    transform: scale(1.05);
 }
 
-
+/* ---------- BOTTOM ---------- */
 .box-3 {
     background-color: #2F6F57;
     padding: 40px;
@@ -79,18 +84,17 @@ body {
 }
 
 .downloadknap {
-    background-color: #E9B949
-;
+    background-color: #eaba49;
     color: white;
     padding: 20px 60px;
-    font-family: Bebas;
+    font-family: Bebas, sans-serif;
     font-size: 18px;
-    border: none;
     border-radius: 12px;
     cursor: pointer;
+    transition: 0.15s;
 }
 
 .downloadknap:hover {
-    background-color: #D9A62E
-;
+    background-color: #D9A62E;
+    transform: scale(1.05);
 }
