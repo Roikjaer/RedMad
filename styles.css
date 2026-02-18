@@ -22,6 +22,7 @@ a {
     flex-direction: column;
 }
 
+
 /* ---------- TOP ---------- */
 .box1 {
     background-color: #3E8E6F;
@@ -52,11 +53,19 @@ a {
     transform: scale(1.05);
 }
 
-/* ---------- MID ---------- */
 .box2 {
     flex: 1;
     text-align: center;
     padding: 80px 20px;
+
+    /* GIF BAGGRUND */
+    background:
+            url("https://i.pinimg.com/originals/b1/94/6f/b1946f0da1fab6cf3bbfac256c72d20d.gif") center/cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-box {
