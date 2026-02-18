@@ -65,10 +65,9 @@ a {
 }
 
 .main-box {
-    background-color: #3E8E6F;
     color: white;
     padding: 30px;
-    font-size: 32px;
+    font-size: 75px;
     width: 300px;
     margin: 0 auto 40px auto;
     border-radius: 12px;
@@ -81,12 +80,13 @@ a {
 }
 
 .option-box {
-    background-color: #3E8E6F;
     color: white;
     padding: 20px 40px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.15s;
+    font-size: 35px;
+    border: 2px solid white;
 }
 
 .option-box:hover {
