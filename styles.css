@@ -112,6 +112,7 @@ a {
     border-radius: 12px;
     cursor: pointer;
     transition: 0.15s;
+    border: none;
 }
 
 .downloadknap:hover {
@@ -137,4 +138,103 @@ a {
     font-family: Arial;
     font-size: 20px;
     color: white;
+}
+       /* ---------- KONTAKT SIDE ---------- */
+
+   .contact-box {
+       flex: 1;
+       background: url("https://wallpapers.com/images/hd/fruits-and-vegetables-1920-x-1080-background-nzuu28aqwiu33171.jpg") center/cover no-repeat;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       text-align: center;
+       padding: 60px 20px;
+   }
+
+.contact-box h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-card {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.2s;
+}
+
+.info-card h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    font-size: 24px;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+.tilmeld-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tilmeld-form input {
+    padding: 15px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.tilmeld-form input:focus {
+    box-shadow: 0 0 0 2px #5FAF8F;
+}
+       /* ---------- OM OS ---------- */
+
+   .about-box {
+       flex: 1;
+       background: url("https://wallpapers.com/images/hd/fruits-and-vegetables-1920-x-1080-background-nzuu28aqwiu33171.jpg") center/cover no-repeat;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 60px 20px;
+       text-align: center;
+       color: white;
+   }
+
+.about-content {
+    background-color: rgba(0,0,0,0.55);
+    padding: 40px 50px;
+    border-radius: 15px;
+    max-width: 800px;
+}
+
+.about-box h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.mission {
+    font-size: 32px;
+    margin-top: 30px;
 }
