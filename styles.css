@@ -170,3 +170,23 @@ a {
 .info-card:hover {
     transform: scale(1.05);
 }
+
+.tilmeld-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tilmeld-form input {
+    padding: 15px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.tilmeld-form input:focus {
+    box-shadow: 0 0 0 2px #5FAF8F;
+}
+
