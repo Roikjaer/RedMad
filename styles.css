@@ -111,6 +111,7 @@ a {
     border-radius: 12px;
     cursor: pointer;
     transition: 0.15s;
+    border: none;
 }
 
 .downloadknap:hover {
