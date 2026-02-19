@@ -139,6 +139,18 @@ a {
     font-size: 20px;
     color: white;
 }
+.infobox2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    width: 350px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
        /* ---------- KONTAKT SIDE ---------- */
 
    .contact-box {
@@ -193,7 +205,7 @@ a {
 
 .tilmeld-form input {
     padding: 15px;
-    width: 300px;
+    width: 320px;
     font-size: 18px;
     border-radius: 8px;
     border: none;
@@ -228,7 +240,7 @@ a {
 .about-box h1 {
     font-size: 70px;
     margin-bottom: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
 
 .about-content p {
     font-size: 26px;
