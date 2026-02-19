@@ -124,3 +124,49 @@ a {
     padding: 20px;
 
 }
+       /* ---------- KONTAKT SIDE ---------- */
+
+   .contact-box {
+       flex: 1;
+       background: url("https://wallpapers.com/images/hd/fruits-and-vegetables-1920-x-1080-background-nzuu28aqwiu33171.jpg") center/cover no-repeat;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: white;
+       text-align: center;
+       padding: 60px 20px;
+   }
+
+.contact-box h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-card {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.2s;
+}
+
+.info-card h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.info-card p {
+    font-size: 24px;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
